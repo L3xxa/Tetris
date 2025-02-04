@@ -155,10 +155,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Data\GameRepository.cpp" />
+    <ClCompile Include="Data\ScoreManager.cpp" />
+    <ClCompile Include="Domain\Board.cpp" />
+    <ClCompile Include="Domain\Game.cpp" />
+    <ClCompile Include="Domain\Tetromino.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Presentation\InputHandler.cpp" />
+    <ClCompile Include="Presentation\Renderer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data\GameRepository.h" />
+    <ClInclude Include="Data\ScoreManager.h" />
+    <ClInclude Include="Domain\Board.h" />
+    <ClInclude Include="Domain\Game.h" />
+    <ClInclude Include="Domain\Tetromino.h" />
+    <ClInclude Include="Presentation\InputHandler.h" />
+    <ClInclude Include="Presentation\Renderer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
